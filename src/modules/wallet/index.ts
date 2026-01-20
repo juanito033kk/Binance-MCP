@@ -22,3 +22,6 @@ export function registerBinanceWalletTools(server: McpServer) {
     // Capital API tools
     registerBinanceWalletCapitalApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceWalletTools as registerWallet };

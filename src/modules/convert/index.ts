@@ -10,3 +10,6 @@ export function registerBinanceConvertTools(server: McpServer) {
     // Register tools for performing trades on Binance Convert
     registerBinanceConvertTradeTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceConvertTools as registerConvert };

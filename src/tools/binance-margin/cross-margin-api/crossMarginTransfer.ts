@@ -15,14 +15,13 @@ export function registerBinanceCrossMarginTransfer(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.crossMarginAccountTransfer({
+                const data = await marginClient.transfer({
                     asset: params.asset,
                     amount: params.amount,
                     type: parseInt(params.type),
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

@@ -19,7 +19,7 @@ export function registerBinanceCrossMarginInterestHistory(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.getInterestHistory({
+                const data = await marginClient.getInterestHistory({
                     ...(params.asset && { asset: params.asset }),
                     ...(params.isolatedSymbol && { isolatedSymbol: params.isolatedSymbol }),
                     ...(params.startTime && { startTime: params.startTime }),
@@ -30,7 +30,6 @@ export function registerBinanceCrossMarginInterestHistory(server: McpServer) {
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

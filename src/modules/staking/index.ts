@@ -7,3 +7,6 @@ export function registerBinanceStakingTools(server: McpServer) {
     registerBinanceETHStakingApiTools(server);
     registerBinanceSOLStakingApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceStakingTools as registerStaking };

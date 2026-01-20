@@ -10,3 +10,6 @@ export function registerBinanceSimpleEarnTools(server: McpServer) {
     // Registers account-related tools like viewing product lists and positions
     registerBinanceSimpleEarnAccountApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceSimpleEarnTools as registerSimpleEarn };

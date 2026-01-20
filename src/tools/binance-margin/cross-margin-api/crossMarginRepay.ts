@@ -16,16 +16,14 @@ export function registerBinanceCrossMarginRepay(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.marginBorrowRepay({
+                const data = await marginClient.repay({
                     asset: params.asset,
                     amount: params.amount,
-                    type: "REPAY",
                     ...(params.isIsolated && { isIsolated: params.isIsolated }),
                     ...(params.symbol && { symbol: params.symbol }),
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

@@ -7,3 +7,6 @@ export function registerBinanceCopyTradingTools(server: McpServer) {
     // Register the Binance Futures Copy Trading API tools with the given server.
     registerBinanceFutureCopyTradingApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceCopyTradingTools as registerCopyTrading };

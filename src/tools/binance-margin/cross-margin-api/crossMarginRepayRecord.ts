@@ -20,9 +20,8 @@ export function registerBinanceCrossMarginRepayRecord(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.queryBorrowRepayRecords({
+                const data = await marginClient.getRepayRecord({
                     asset: params.asset,
-                    type: "REPAY",
                     ...(params.isolatedSymbol && { isolatedSymbol: params.isolatedSymbol }),
                     ...(params.txId && { txId: params.txId }),
                     ...(params.startTime && { startTime: params.startTime }),
@@ -33,7 +32,6 @@ export function registerBinanceCrossMarginRepayRecord(server: McpServer) {
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

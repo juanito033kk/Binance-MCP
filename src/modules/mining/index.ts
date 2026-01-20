@@ -29,3 +29,6 @@ export function registerBinanceMiningTools(server: McpServer) {
     registerBinanceHashRateResaleRequest(server);
     registerBinanceAccountList(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceMiningTools as registerMining };

@@ -9,3 +9,6 @@ export function registerBinanceVipLoanTools(server: McpServer) {
     registerBinanceVipLoanTradeApiTools(server);
     registerBinanceVipLoanUserInformationApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceVipLoanTools as registerVipLoan };

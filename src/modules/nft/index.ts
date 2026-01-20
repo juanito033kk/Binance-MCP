@@ -11,3 +11,6 @@ export function registerBinanceNFTTools(server: McpServer) {
     registerBinanceGetNFTTransactionHistory(server);
     registerBinanceGetNFTAsset(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceNFTTools as registerNFT };

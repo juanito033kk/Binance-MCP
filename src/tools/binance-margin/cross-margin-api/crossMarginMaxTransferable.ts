@@ -14,13 +14,12 @@ export function registerBinanceCrossMarginMaxTransferable(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.queryMaxTransferOutAmount({
+                const data = await marginClient.getMaxTransferable({
                     asset: params.asset,
                     ...(params.isolatedSymbol && { isolatedSymbol: params.isolatedSymbol }),
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

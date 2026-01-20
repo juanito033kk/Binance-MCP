@@ -7,3 +7,6 @@ export function registerBinanceDualInvestmentTools(server: McpServer) {
     registerBinanceDualInvestmentTradeApiTools(server);
     registerBinanceDualInvestmentMarketApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceDualInvestmentTools as registerDualInvestment };

@@ -8,3 +8,6 @@ export function registerBinanceAlgoTools(server: McpServer) {
     registerBinanceAlgoFutureApiTools(server);
     registerBinanceAlgoSpotApiTools(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceAlgoTools as registerAlgo };

@@ -5,3 +5,6 @@ import { registerBinanceGetSpotRebateHistoryRecords } from "./rebate-api/getSpot
 export function registerBinanceRebateTools(server: McpServer) {
     registerBinanceGetSpotRebateHistoryRecords(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceRebateTools as registerRebate };

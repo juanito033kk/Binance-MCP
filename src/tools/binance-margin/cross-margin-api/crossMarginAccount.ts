@@ -12,11 +12,10 @@ export function registerBinanceCrossMarginAccount(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.queryCrossMarginAccountDetails({
+                const data = await marginClient.getAccount({
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

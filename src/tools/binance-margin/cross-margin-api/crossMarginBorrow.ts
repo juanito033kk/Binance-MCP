@@ -16,16 +16,14 @@ export function registerBinanceCrossMarginBorrow(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.marginBorrowRepay({
+                const data = await marginClient.borrow({
                     asset: params.asset,
                     amount: params.amount,
-                    type: "BORROW",
                     ...(params.isIsolated && { isIsolated: params.isIsolated }),
                     ...(params.symbol && { symbol: params.symbol }),
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

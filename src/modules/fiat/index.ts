@@ -7,3 +7,6 @@ export function registerBinanceFiatDepositWithdrawHistoryTools(server: McpServer
     registerBinanceGetFiatDepositWithdrawHistory(server);
     registerBinanceGetFiatPaymentsHistory(server);
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceFiatDepositWithdrawHistoryTools as registerFiat };

@@ -14,13 +14,12 @@ export function registerBinanceCrossMarginMaxBorrowable(server: McpServer) {
         },
         async (params) => {
             try {
-                const response = await marginClient.restAPI.queryMaxBorrow({
+                const data = await marginClient.getMaxBorrowable({
                     asset: params.asset,
                     ...(params.isolatedSymbol && { isolatedSymbol: params.isolatedSymbol }),
                     ...(params.recvWindow && { recvWindow: params.recvWindow })
                 });
 
-                const data = await response.data();
                 return {
                     content: [{
                         type: "text",

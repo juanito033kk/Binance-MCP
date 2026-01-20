@@ -23,3 +23,6 @@ export function registerBinanceSpotTools(server: McpServer) {
     registerBinanceGeneralApiTools(server);
     
 }
+
+// Alias for binance.ts compatibility
+export { registerBinanceSpotTools as registerSpot };
